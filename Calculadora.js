@@ -83,7 +83,7 @@ function raiz_cuadrada() {
 function resultados() {
     console.log("Historial de resultados (Array):");
     for (let i = 0; i < array_resultados.length; i++) {
-        console.log(`Operación ${i + 1}: ${array_resultados[i]}`);
+        console.log(`Resultados: ${array_resultados[i]}`);
     }
 
     console.log("Historial de resultados (Map):");
